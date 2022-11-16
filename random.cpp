@@ -43,11 +43,13 @@ int main()
 		tmp_last += tmp;
 	}
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < 100; i++) 
+	{
 		swap(percent[i], percent[rand() % 100]);
 	}
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < 100; i++) 
+	{
 		cout << percent[i] << " ";
 	}
 
